@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>HTTTQL - Bộ môn Lập trình Web</title>
-    </head>
-    <body>
-        <p>Chào mừng bạn đến với môn học <b>Lập trình Web</b></p>
-    </body>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTTQL - Bộ môn Lập trình Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .welcome {
+            font-size: 20px;
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .explanation {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 1px dashed #ccc;
+        }
+        .code-example {
+            background-color: #2d2d2d;
+            color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HTTTQL - Bộ môn Lập trình Web</h1>
+        
+        <p class="welcome">Chào mừng bạn đến với môn học <b>Lập trình Web</b></p>
+        
+        <div class="explanation">
+            <h2>Tại sao "Lập trình Web" không được in đậm?</h2>
+            <p>Trong mã HTML gốc, có thể có một trong những vấn đề sau:</p>
+            <ul>
+                <li>Thẻ &lt;b&gt; không được đóng đúng cách (thiếu thẻ đóng &lt;/b&gt;)</li>
+                <li>Lỗi cú pháp ở phần trước đó làm ảnh hưởng đến phần này</li>
+                <li>Thiếu dấu &gt; trong thẻ meta ở phần head</li>
+            </ul>
+            
+            <p>Code đúng phải là:</p>
+            <div class="code-example">
+                &lt;p&gt;Chào mừng bạn đến với môn học &lt;b&gt;Lập trình Web&lt;/b&gt;&lt;/p&gt;
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Bộ môn Lập trình Web - Học viện Công nghệ Bưu chính Viễn thông</p>
+        </div>
+    </div>
+</body>
 </html>
